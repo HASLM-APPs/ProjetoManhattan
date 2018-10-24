@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".SendMail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/carrega_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vai pré-carregar o email aqui"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assunto"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>/>
+
+
+    <EditText
+        android:id="@+id/carrega_assunto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="vai pre carregar o assunto aqui"
+        android:textSize="11sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensagem:"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11sp"
+        android:lines="19"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textColor="#ffffff"
+        android:background="#006b07"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>
